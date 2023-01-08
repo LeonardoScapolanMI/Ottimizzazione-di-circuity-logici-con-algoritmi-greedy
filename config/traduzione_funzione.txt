@@ -1,6 +1,7 @@
-In questo file vengono definite come certe funzioni devono essere tradotte, ovvero il nome della
-funzione che un certo gate implementa dato il numero di ingressi, il nome degli ingressi, il
-numero delle uscite e la funzione che esse implementano.
+In questo file vengono definite come certe funzioni devono essere tradotte,
+	ovvero il nome dellafunzione che un certo gate implementa dato il numero di
+	ingressi, il nome degli ingressi, il numero delle uscite e la funzione che
+	esse implementano.
 Queste regole hanno la priorità anche su quanto definito nelle librerie di celle
 Il formanto è il seguente:
 nome_funzione : numero_ingressi nomi_ingressi numero_uscite funzioni_uscite
