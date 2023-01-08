@@ -1,0 +1,17 @@
+In questo file viene definito come operazione booleane in vhdl vengano tradotte in gate
+Il formanto è il seguente:
+nome_funzione : espressione
+l'espressione deve avere il seguente formato:
+X <= "X operatore X operatore X ..."
+le X rappresentano i segnali
+le operazioni possono essere solo tra singoli bit, e non tra buss
+gli operatori acettati sono:
+and or xor
+sono ammesse parentesi, ma non devono esserci spzi tra queste e il segnale vicino, mentre deve esserci
+almeno uno spazio tra queste e l'operatore vicino
+
+start
+AND2 : "X <= X and X"
+OR2 : "X <= X or X"
+XOR2 : "X <= X xor X"
+OR2AND2 : "X <= (X or X) and X"

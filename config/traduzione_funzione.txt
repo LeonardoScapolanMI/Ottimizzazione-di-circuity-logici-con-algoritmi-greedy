@@ -1,0 +1,10 @@
+In questo file vengono definite come certe funzioni devono essere tradotte, ovvero il nome della
+funzione che un certo gate implementa dato il numero di ingressi, il nome degli ingressi, il
+numero delle uscite e la funzione che esse implementano.
+Queste regole hanno la priorità anche su quanto definito nelle librerie di celle
+Il formanto è il seguente:
+nome_funzione : numero_ingressi nomi_ingressi numero_uscite funzioni_uscite
+
+start
+HA : 2 A0 B0 2 A0*B0 !A0*B0+A0*!B0
+FA : 3 A0 B0 CI 2 A0*B0+A0*CI+B0*CI !A0*!B0*CI+!A0*B0*!CI+A0*!B0*!CI+A0*B0*CI

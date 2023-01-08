@@ -1,0 +1,7 @@
+In questo file viene definito l'equivalenza tra più nomi per la stessa funzione(aliases).
+ATTENZIONE : Inserire meno equivalenze possibili, in quanto aumentano di molto il tempo di associazione di componenti
+Il formato è il seguente:
+numero_equivalenze : nome_funzione alias1 alias2 ...
+
+start
+3 : NOT NOT1 INV

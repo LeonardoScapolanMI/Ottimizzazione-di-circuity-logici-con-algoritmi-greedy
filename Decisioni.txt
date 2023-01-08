@@ -1,0 +1,2 @@
+Tutti i segnali interni devono essere dichiarati
+Il circuito deve avere almeno un ingresso e un uscita e deve esserci l'acapo prima di ); sulla dichiarazione dell'entity
